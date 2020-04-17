@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\Thing.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  // `current` is updated whenever the prop value changes...\r\n  export let current;\r\n\r\n  // ...but `initial` is fixed upon initialisation\r\n  const initial = current;\r\n</script>\r\n\r\n<style>\r\n  span {\r\n    display: inline-block;\r\n    padding: 0.2em 0.5em;\r\n    margin: 0 0.2em 0.2em 0;\r\n    width: 4em;\r\n    text-align: center;\r\n    border-radius: 0.2em;\r\n    color: white;\r\n  }\r\n</style>\r\n\r\n<p>\r\n  <span style=\"background-color: {initial}\">initial</span>\r\n  <span style=\"background-color: {current}\">current</span>\r\n</p>\r\n"
+  ],
+  "names": [],
+  "mappings": "AASE,IAAI,cAAC,CAAC,AACJ,OAAO,CAAE,YAAY,CACrB,OAAO,CAAE,KAAK,CAAC,KAAK,CACpB,MAAM,CAAE,CAAC,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC,CACvB,KAAK,CAAE,GAAG,CACV,UAAU,CAAE,MAAM,CAClB,aAAa,CAAE,KAAK,CACpB,KAAK,CAAE,KAAK,AACd,CAAC"
+}
